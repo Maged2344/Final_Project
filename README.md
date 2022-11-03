@@ -1,4 +1,4 @@
-# SIMPLE PYTHON APP DEPLOYMENT USING TERRAFORM,DOCKER&GCP.
+# SIMPLE PYTHON APP DEPLOYMENT USING TERRAFORM, &GCP.
 
 A simple python web-app using [redis](https://redis.io/) for caching, Deployed on a full GKE cluster using [Terraform](https://www.terraform.io/)
 
@@ -11,13 +11,7 @@ A VPC containing 2 subnets, Nat gate-way, Private VM instance and a private stan
 Two deployment files to deploy the python application and redis service
 
 
-## Installation
-
-- Use the package manager [pip](https://pypi.org/project/pip/) to install the dependencies into your Docker file.
-
-```bash
-RUN pip install -r requirements.txt
-```
+``
 
 - Apply the infrastructure on GCP using Terraform.
 
