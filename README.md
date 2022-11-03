@@ -25,8 +25,8 @@ terraform apply
 
 - pull jenkins with helm
   ``` helm repo add jenkins https://charts.jenkins.io
-   helm repo update
-   helm pull --untar jenkins/jenkins
+      helm repo update
+      helm pull --untar jenkins/jenkins
 ```
 
 
