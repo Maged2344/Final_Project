@@ -4,7 +4,7 @@ A simple python web-app using [redis](https://redis.io/) for caching, Deployed o
 
 ## Infrastructure
 
-A VPC containing 2 subnets, Nat gate-way, Private VM instance and a private standard GKE cluster.
+run jenkins with helm in my cluster.
 
 ## K8s components
 
