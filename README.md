@@ -4,7 +4,7 @@ A simple python web-app using [redis](https://redis.io/) for caching, Deployed o
 
 ## Infrastructure
 
-run jenkins with helm in my cluster.
+building with terraform & helm.
 
 ## K8s components
 
