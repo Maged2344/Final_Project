@@ -10,9 +10,6 @@ A VPC containing 2 subnets, Nat gate-way, Private VM instance and a private stan
 
 Two deployment files to deploy the python application and redis service
 
-## Docker images
-
-I used the python application in [DevOps-Challenge-Demo-Code](https://github.com/atefhares/DevOps-Challenge-Demo-Code) repository to generate the app Dockerfile, And for Redis I pulled the official Redis image from [Docker hub](https://hub.docker.com/)
 
 ## Installation
 
@@ -41,9 +38,6 @@ kubectl apply -f "add file name here"
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## result image
-![Screenshot from 2022-10-31 22-06-30](https://user-images.githubusercontent.com/62676576/199102182-19a1f549-331d-4afe-abbe-d9bc4af4d4c9.png)
 
 
 
