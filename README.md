@@ -23,11 +23,11 @@ terraform apply
 
 - SSH into the private instance and start deploying to your K8s cluster
 
-```bash
-kubectl apply -f "add file name here"
+- pull jenkins with helm
+  ``` helm repo add jenkins https://charts.jenkins.io
+   helm repo update
+   helm pull --untar jenkins/jenkins
 ```
-
-
 
 
 ## Contributing
